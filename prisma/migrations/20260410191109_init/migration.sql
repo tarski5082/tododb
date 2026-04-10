@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "task" (
+    "Id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "Tache" TEXT NOT NULL,
+    "Fait" BOOLEAN NOT NULL DEFAULT false
+);
