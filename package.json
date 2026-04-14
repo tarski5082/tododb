@@ -1,9 +1,13 @@
 {
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
   "devDependencies": {
+    "electron": "^41.2.0",
     "prisma": "^6.19.3"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3"
-  },
-  "type":"module"
+  }
 }
